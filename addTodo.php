@@ -26,7 +26,7 @@ include("app/controllers/todo.php");
 <body>
     <?php include('includes/aside.php') ?>
     <div class="container" style="margin-top: 100px;display: flex;justify-content:center;flex-direction:column">
-    <h1>Add New Todolist</h1>
+    <h1>Add New <span style="color:#41C4F6">Todolist</span> </h1>
         <div class="col" >
        
             <form action="addTodo.php" method="post">
@@ -36,7 +36,7 @@ include("app/controllers/todo.php");
                 <div class="form-group">
                     <input class="jscolor" name="color" value="<?php echo $colorAdd ?>">
                 </div>
-                <input type="submit" name="ptodo">
+                <input type="submit" class="btn btn-success" style="background:#67DAD5" name="ptodo">
             </form>
         </div>
     </div>

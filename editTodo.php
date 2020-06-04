@@ -25,8 +25,9 @@ include("app/controllers/todo.php");
 <body>
 <?php include('includes/aside.php') ?>
 
-<div class="container-fluide" style="margin-top: 100px;">
-        <div class="row">
+<div class="container-fluide" style="margin-top: 200px;">
+        <div class="col">
+            <h1>Edit todoliste : <span style="color:#41C4F6;font-family:poppins"><?php echo $name ?></span></h1>
             <form action="editTodo.php" method="post">
                 <input type="hidden" name="idTd" value="<?php echo $idTd ?>">
                 <div class="form-group">
@@ -35,7 +36,7 @@ include("app/controllers/todo.php");
                 <div class="form-group">
                     <input class="jscolor" name="color" value="<?php echo $color ?>">
                 </div>
-                <input type="submit" name="updatetodo">
+                <input type="submit" class="btn btn-success" style="background-color: #41C4F6;" name="updatetodo">
             </form>
         </div>
     </div>
