@@ -13,7 +13,7 @@ Use XAMMP OR WAMP to launch server.
 Application to manage task lists (todolist) with PHP and Javascript languages ​​with a database (MySQL).
 
 ## Live result
-[Website Gitodo](https://gitodo.herokuapp.com/)
+[Website Gitodo](http://gitodo.epizy.com/todo)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
